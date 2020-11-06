@@ -11,8 +11,5 @@ public class BattleController {
     @Autowired
     private CardRepository cardRepository;
 
-    @GetMapping("/throw/{type}")
-    public String throwDice(@PathVariable int type){
-
-    }
+    //
 }
